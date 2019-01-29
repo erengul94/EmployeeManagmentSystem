@@ -6,10 +6,9 @@ from project.models import Project
 
 
 class Employee(User):
-
     department_name = models.ForeignKey(Departments, on_delete=models.CASCADE)
     project_name = models.ForeignKey(Project, on_delete=models.CASCADE)
 
     def __str__(self):
-        return User.first_name
+        return self.username
 
