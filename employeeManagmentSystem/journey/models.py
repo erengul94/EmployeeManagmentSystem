@@ -2,7 +2,7 @@ from django.db import models
 from employee.models import Employee
 
 # Create your models here.
-
+# funcs2
 
 class Journey(models.Model):
 
