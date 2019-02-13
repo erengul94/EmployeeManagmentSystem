@@ -2,7 +2,9 @@ from django.db import models
 from employee.models import Employee
 
 # Create your models here.
-# some functions
+
+# funcs2
+
 
 class Journey(models.Model):
 
@@ -16,3 +18,4 @@ class Journey(models.Model):
     def __str__(self):
         return self.journey_destination
 
+# funcs2
