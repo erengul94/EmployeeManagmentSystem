@@ -18,4 +18,6 @@ class Journey(models.Model):
     def __str__(self):
         return self.journey_destination
 
-# funcs2
+
+
+# __init__ functions
